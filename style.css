@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
+* {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Merienda";
+  background-color: #6e473b;
+  color: #e1d4c2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.content {
+  max-width: 600px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.ini h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: blanchedalmond;
+  text-align: center;
+  padding-bottom: 0.7rem;
+}
+
+.ini img {
+  max-width: 50%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  display: block;
+  margin: 0 auto;
+}
+
+.Receita h2 {
+  color: blanchedalmond;
+  padding-bottom: 0.5rem;
+}
+
+.Receita h3 {
+  padding-top: 0.4rem;
+  padding-bottom: 0.5rem;
+  font-weight: 400;
+}
+
+ul {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+ul li::before {
+  content: "- ";
+  color: #f5e9dc; 
+}
+
+.preparo h2 {
+  color: blanchedalmond;
+  padding-top: 0.7rem;
+}
+
+.preparo ul li {
+  line-height: 1.5rem;
+}
+
+.preparo ul h3 {
+  font-weight: 400;
+  padding: 0.5rem 0.5rem;
+}
+
+footer {
+  background-color: #2b1d14;
+  color: #fcebd5;
+  text-align: center;
+  padding: 10px 20px;
+  font-family: 'Courier New', Courier, monospace; 
+  margin-top: 1rem;
+  width: 100%;
+}
+
+footer p {
+  margin: 10px 0;
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+footer a {
+  color: #fcebd5; 
+  text-decoration: none;
+  font-style: italic;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+
+@media (min-width: 768px) {
+  .ini h1 {
+    font-size: 2.5rem;
+  }
+
+  .content {
+    padding: 30px;
+  }
+
+  footer {
+    padding: 15px 50px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .ini h1 {
+    font-size: 3rem;
+  }
+
+  .content {
+    max-width: 800px;
+  }
+
+  footer {
+    padding: 20px 100px;
+  }
+}
